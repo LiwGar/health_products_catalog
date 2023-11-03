@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none; 
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* COLORS VARIABLES */
+:root {
+    --bg-color: #1e1e20;
+    --second-bg-color: #171717;
+    --third-bg-color: #27272a;
+    --text-color: #ededed;  
+    --second-text-color:  #9f9fb181;
+    --main-color: #08e6ea;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* Body */
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
